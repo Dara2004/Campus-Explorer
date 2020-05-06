@@ -1,0 +1,20 @@
+{
+    "title": "",
+    "query": {
+        "WHERE": {},
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_shortname"
+            ],
+            "APPLY": [
+                {
+                    "sumSeats": {
+                        "COUNT": "rooms_type"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

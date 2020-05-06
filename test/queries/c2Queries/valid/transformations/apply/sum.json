@@ -1,0 +1,203 @@
+{
+    "title": "",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_fullname",
+                "sumSeats"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_fullname"
+            ],
+            "APPLY": [
+                {
+                    "sumSeats": {
+                        "SUM": "rooms_seats"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_fullname": "Allard Hall (LAW)",
+            "sumSeats": 228
+        },
+        {
+            "rooms_fullname": "Anthropology and Sociology",
+            "sumSeats": 186
+        },
+        {
+            "rooms_fullname": "Aquatic Ecosystems Research Laboratory",
+            "sumSeats": 144
+        },
+        {
+            "rooms_fullname": "Auditorium Annex",
+            "sumSeats": 41
+        },
+        {
+            "rooms_fullname": "Biological Sciences",
+            "sumSeats": 336
+        },
+        {
+            "rooms_fullname": "Brock Hall Annex",
+            "sumSeats": 94
+        },
+        {
+            "rooms_fullname": "Buchanan",
+            "sumSeats": 3190
+        },
+        {
+            "rooms_fullname": "Centre for Interactive  Research on Sustainability",
+            "sumSeats": 426
+        },
+        {
+            "rooms_fullname": "Chemical and Biological Engineering Building",
+            "sumSeats": 354
+        },
+        {
+            "rooms_fullname": "Chemistry",
+            "sumSeats": 913
+        },
+        {
+            "rooms_fullname": "Civil and Mechanical Engineering",
+            "sumSeats": 289
+        },
+        {
+            "rooms_fullname": "Earth and Ocean Sciences - Main",
+            "sumSeats": 50
+        },
+        {
+            "rooms_fullname": "Earth Sciences Building",
+            "sumSeats": 580
+        },
+        {
+            "rooms_fullname": "Food, Nutrition and Health",
+            "sumSeats": 263
+        },
+        {
+            "rooms_fullname": "Forest Sciences Centre",
+            "sumSeats": 621
+        },
+        {
+            "rooms_fullname": "Frank Forward",
+            "sumSeats": 142
+        },
+        {
+            "rooms_fullname": "Frederic Lasserre",
+            "sumSeats": 325
+        },
+        {
+            "rooms_fullname": "Friedman Building",
+            "sumSeats": 160
+        },
+        {
+            "rooms_fullname": "Geography",
+            "sumSeats": 619
+        },
+        {
+            "rooms_fullname": "Hebb",
+            "sumSeats": 537
+        },
+        {
+            "rooms_fullname": "Hennings",
+            "sumSeats": 658
+        },
+        {
+            "rooms_fullname": "Henry Angus",
+            "sumSeats": 1546
+        },
+        {
+            "rooms_fullname": "Hugh Dempster Pavilion",
+            "sumSeats": 440
+        },
+        {
+            "rooms_fullname": "Iona Building",
+            "sumSeats": 150
+        },
+        {
+            "rooms_fullname": "Irving K Barber Learning Centre",
+            "sumSeats": 568
+        },
+        {
+            "rooms_fullname": "Jack Bell Building for the School of Social Work",
+            "sumSeats": 201
+        },
+        {
+            "rooms_fullname": "Leonard S. Klinck (also known as CSCI)",
+            "sumSeats": 505
+        },
+        {
+            "rooms_fullname": "Life Sciences Centre",
+            "sumSeats": 825
+        },
+        {
+            "rooms_fullname": "MacLeod",
+            "sumSeats": 503
+        },
+        {
+            "rooms_fullname": "MacMillan",
+            "sumSeats": 573
+        },
+        {
+            "rooms_fullname": "Mathematics",
+            "sumSeats": 495
+        },
+        {
+            "rooms_fullname": "Mathematics Annex",
+            "sumSeats": 106
+        },
+        {
+            "rooms_fullname": "Neville Scarfe",
+            "sumSeats": 1004
+        },
+        {
+            "rooms_fullname": "Orchard Commons",
+            "sumSeats": 662
+        },
+        {
+            "rooms_fullname": "Pharmaceutical Sciences Building",
+            "sumSeats": 538
+        },
+        {
+            "rooms_fullname": "Ponderosa Commons: Oak House",
+            "sumSeats": 240
+        },
+        {
+            "rooms_fullname": "Robert F. Osborne Centre",
+            "sumSeats": 521
+        },
+        {
+            "rooms_fullname": "School of Population and Public Health",
+            "sumSeats": 166
+        },
+        {
+            "rooms_fullname": "Student Recreation Centre",
+            "sumSeats": 897
+        },
+        {
+            "rooms_fullname": "The Leon and Thea Koerner University Centre",
+            "sumSeats": 163
+        },
+        {
+            "rooms_fullname": "War Memorial Gymnasium",
+            "sumSeats": 65
+        },
+        {
+            "rooms_fullname": "Wesbrook",
+            "sumSeats": 427
+        },
+        {
+            "rooms_fullname": "West Mall Swing Space",
+            "sumSeats": 1421
+        },
+        {
+            "rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+            "sumSeats": 1297
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Cannot query more than one dataset",
+    "query": {
+        "WHERE": {
+            "GT":
+            {
+                "courses_avg": 99
+            }
+
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "coursess_avg"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

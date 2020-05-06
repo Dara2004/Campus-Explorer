@@ -1,0 +1,59 @@
+{
+    "title": "",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_type",
+                "avgSeats"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_type"
+            ],
+            "APPLY": [
+                {
+                    "avgSeats": {
+                        "AVG": "rooms_seats"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_type": "Case Style",
+            "avgSeats": 63.54
+        },
+        {
+            "rooms_type": "Open Design General Purpose",
+            "avgSeats": 50.28
+        },
+        {
+            "rooms_type": "Small Group",
+            "avgSeats": 23.75
+        },
+        {
+            "rooms_type": "Tiered Large Group",
+            "avgSeats": 161.92
+        },
+        {
+            "rooms_type": "",
+            "avgSeats": 60
+        },
+        {
+            "rooms_type": "TBD",
+            "avgSeats": 232.25
+        },
+        {
+            "rooms_type": "Active Learning",
+            "avgSeats": 30.22
+        },
+        {
+            "rooms_type": "Studio Lab",
+            "avgSeats": 50
+        }
+    ]
+}

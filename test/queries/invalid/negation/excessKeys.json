@@ -1,0 +1,27 @@
+{
+    "title": "Excess keys in query",
+    "query": {
+        "query": {
+            "WHERE": {
+                "NOT": {
+                    "LT": {
+                        "courses_avg": 78
+                    },
+                    "GT": {
+                        "courses_avg": 78
+                    }
+                }
+            },
+            "OPTIONS": {
+                "COLUMNS": [
+                    "courses_dept",
+                    "courses_avg"
+                ]
+            }
+        },
+        "isQueryValid": false,
+        "result": "InsightError"
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

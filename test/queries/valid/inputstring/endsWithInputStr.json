@@ -1,0 +1,133 @@
+{
+    "title": "",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "*cs"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cics",
+            "courses_avg": 76.39
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 76.39
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 76.88
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 76.88
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 77.37
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 77.37
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 77.44
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 77.44
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 78.7
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 78.7
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 80.91
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 80.91
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 81.73
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 81.73
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 82.63
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 82.63
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 83.54
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 83.54
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 86
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 86
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 87.37
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 87.37
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 88.52
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 88.52
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 88.68
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 88.68
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 89.68
+        },
+        {
+            "courses_dept": "cics",
+            "courses_avg": 89.68
+        }
+    ]
+}
+

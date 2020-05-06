@@ -1,0 +1,26 @@
+{
+    "title": "",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_lat",
+                "rooms_lon"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+
+            ],
+            "APPLY": [
+                {
+                    "maxLat": {
+                        "MIN": "rooms_fullname"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,25 @@
+{
+    "title": "",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "cours_year"
+            ],
+            "APPLY": [
+                {
+                    "MinPass": {
+                        "MIN": "courses_pass"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

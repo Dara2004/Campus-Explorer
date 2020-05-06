@@ -1,0 +1,158 @@
+{
+    "title": "",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "countTypes"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_fullname"
+            ],
+            "APPLY": [
+                {
+                    "countTypes": {
+                        "COUNT": "rooms_type"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 4
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 4
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 5
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 4
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 4
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 2
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 1
+        },
+        {
+            "countTypes": 3
+        },
+        {
+            "countTypes": 2
+        }
+    ]
+}

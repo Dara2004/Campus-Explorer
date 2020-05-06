@@ -1,0 +1,20 @@
+{
+    "title": "Referenced dataset \"*\" not added yet",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "*_?",
+                "courses_avg"
+            ],
+            "ORDER":
+            "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

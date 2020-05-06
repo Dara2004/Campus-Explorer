@@ -1,0 +1,319 @@
+{
+    "title": "SELECT dept, id, avg WHERE avg == 95 || avg > 90 && dept == 'adhe' ORDER BY avg",
+    "query": {
+        "WHERE": {
+            "OR": [
+                {
+                    "AND": [
+                        {
+                            "GT": {
+                                "courses_avg": 90
+                            }
+                        },
+                        {
+                            "IS": {
+                                "courses_dept": "adhe"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_instructor",
+                "courses_avg"
+            ],
+            "ORDER": "courses_instructor"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "rhsc",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "obst",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "nurs",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "musc",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "musc",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "musc",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "mtrl",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "mtrl",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "math",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "math",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "kin",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "kin",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "kin",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "epse",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "edcp",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "econ",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "cnps",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "bmeg",
+            "courses_instructor": "",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "",
+            "courses_avg": 91.33
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "",
+            "courses_avg": 90.85
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "",
+            "courses_avg": 90.02
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_instructor": "acheson, alison",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 90.72
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 91.33
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 90.5
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 90.17
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 91.48
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 91.29
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 90.82
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 92.54
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 96.11
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_avg": 93.33
+        },
+        {
+            "courses_dept": "sowk",
+            "courses_instructor": "clark, natalie",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_instructor": "de longis, anita",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "mtrl",
+            "courses_instructor": "dixon, david",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "bmeg",
+            "courses_instructor": "dumont, guy a",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "falk, clifford",
+            "courses_avg": 90.18
+        },
+        {
+            "courses_dept": "econ",
+            "courses_instructor": "gallipoli, giovanni",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_instructor": "galloway, steve",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_instructor": "graefe, sara",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "musc",
+            "courses_instructor": "langager, graeme",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "musc",
+            "courses_instructor": "langager, graeme",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "musc",
+            "courses_instructor": "langager, graeme",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_instructor": "medved, maureen",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "edcp",
+            "courses_instructor": "petrina, stephen",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "nurs",
+            "courses_instructor": "phillips, craig",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "cnps",
+            "courses_instructor": "schultz, izabela",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "crwr",
+            "courses_instructor": "svendsen, linda jane",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "epse",
+            "courses_instructor": "vadeboncoeur, jennifer",
+            "courses_avg": 95
+        },
+        {
+            "courses_dept": "adhe",
+            "courses_instructor": "vanwynsberghe, robert",
+            "courses_avg": 90.16
+        },
+        {
+            "courses_dept": "epse",
+            "courses_instructor": "zumbo, bruno",
+            "courses_avg": 95
+        }
+    ]
+}

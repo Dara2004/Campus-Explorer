@@ -1,0 +1,475 @@
+{
+    "title": "",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_pass": 500
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "countPass"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title"
+            ],
+            "APPLY": [
+                {
+                    "countPass": {
+                        "COUNT": "courses_pass"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "intro to eng i",
+            "countPass": 1
+        },
+        {
+            "courses_title": "intro to eng ii",
+            "countPass": 1
+        },
+        {
+            "courses_title": "comp eng design",
+            "countPass": 9
+        },
+        {
+            "courses_title": "technical commun",
+            "countPass": 8
+        },
+        {
+            "courses_title": "prof eng practce",
+            "countPass": 8
+        },
+        {
+            "courses_title": "general biochem",
+            "countPass": 2
+        },
+        {
+            "courses_title": "biol bact cell",
+            "countPass": 1
+        },
+        {
+            "courses_title": "unicellular life",
+            "countPass": 4
+        },
+        {
+            "courses_title": "biology of cell",
+            "countPass": 5
+        },
+        {
+            "courses_title": "eco gen evol",
+            "countPass": 1
+        },
+        {
+            "courses_title": "gentcs ecol&evol",
+            "countPass": 8
+        },
+        {
+            "courses_title": "lab inv life sc",
+            "countPass": 16
+        },
+        {
+            "courses_title": "cell biology 1",
+            "countPass": 6
+        },
+        {
+            "courses_title": "fund cell bio",
+            "countPass": 9
+        },
+        {
+            "courses_title": "cell biology 2",
+            "countPass": 3
+        },
+        {
+            "courses_title": "intro biochem",
+            "countPass": 6
+        },
+        {
+            "courses_title": "fund ecology",
+            "countPass": 3
+        },
+        {
+            "courses_title": "fund genetics",
+            "countPass": 5
+        },
+        {
+            "courses_title": "evolutionary bio",
+            "countPass": 1
+        },
+        {
+            "courses_title": "human physiology",
+            "countPass": 1
+        },
+        {
+            "courses_title": "intr mcr hum ant",
+            "countPass": 2
+        },
+        {
+            "courses_title": "structural chem",
+            "countPass": 6
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "countPass": 2
+        },
+        {
+            "courses_title": "phys & org chem",
+            "countPass": 5
+        },
+        {
+            "courses_title": "thm kin org chem",
+            "countPass": 2
+        },
+        {
+            "courses_title": "chem for engr",
+            "countPass": 7
+        },
+        {
+            "courses_title": "physical chem",
+            "countPass": 7
+        },
+        {
+            "courses_title": "org chem biol sc",
+            "countPass": 7
+        },
+        {
+            "courses_title": "org chem lab",
+            "countPass": 8
+        },
+        {
+            "courses_title": "tech terms medic",
+            "countPass": 6
+        },
+        {
+            "courses_title": "busn fundamental",
+            "countPass": 3
+        },
+        {
+            "courses_title": "career fundmtls",
+            "countPass": 4
+        },
+        {
+            "courses_title": "employment relat",
+            "countPass": 1
+        },
+        {
+            "courses_title": "log&ops managmnt",
+            "countPass": 1
+        },
+        {
+            "courses_title": "int mgmt info sy",
+            "countPass": 1
+        },
+        {
+            "courses_title": "int quan dec mak",
+            "countPass": 9
+        },
+        {
+            "courses_title": "appl stat in bus",
+            "countPass": 8
+        },
+        {
+            "courses_title": "mngmt&orgnz bhvr",
+            "countPass": 8
+        },
+        {
+            "courses_title": "financial acctng",
+            "countPass": 7
+        },
+        {
+            "courses_title": "managerial acctg",
+            "countPass": 8
+        },
+        {
+            "courses_title": "managerial econ",
+            "countPass": 8
+        },
+        {
+            "courses_title": "intro marketing",
+            "countPass": 8
+        },
+        {
+            "courses_title": "intro to finance",
+            "countPass": 8
+        },
+        {
+            "courses_title": "corp finance",
+            "countPass": 2
+        },
+        {
+            "courses_title": "business writing",
+            "countPass": 5
+        },
+        {
+            "courses_title": "commercial law",
+            "countPass": 8
+        },
+        {
+            "courses_title": "govt & business",
+            "countPass": 8
+        },
+        {
+            "courses_title": "busn communicati",
+            "countPass": 2
+        },
+        {
+            "courses_title": "comptn, progrmng",
+            "countPass": 5
+        },
+        {
+            "courses_title": "model comptn",
+            "countPass": 2
+        },
+        {
+            "courses_title": "sftwr constructn",
+            "countPass": 2
+        },
+        {
+            "courses_title": "intr cr writing",
+            "countPass": 5
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "countPass": 10
+        },
+        {
+            "courses_title": "princpl macrecon",
+            "countPass": 8
+        },
+        {
+            "courses_title": "intro int trade",
+            "countPass": 4
+        },
+        {
+            "courses_title": "intro literature",
+            "countPass": 9
+        },
+        {
+            "courses_title": "intro nonfiction",
+            "countPass": 1
+        },
+        {
+            "courses_title": "univrsty writing",
+            "countPass": 3
+        },
+        {
+            "courses_title": "strat univ writ",
+            "countPass": 6
+        },
+        {
+            "courses_title": "lit engl 18c",
+            "countPass": 1
+        },
+        {
+            "courses_title": "lit brit 18c+",
+            "countPass": 1
+        },
+        {
+            "courses_title": "lit canada",
+            "countPass": 1
+        },
+        {
+            "courses_title": "the solid earth",
+            "countPass": 1
+        },
+        {
+            "courses_title": "fluid earth",
+            "countPass": 2
+        },
+        {
+            "courses_title": "catastroph earth",
+            "countPass": 9
+        },
+        {
+            "courses_title": "gold & gems",
+            "countPass": 6
+        },
+        {
+            "courses_title": "fmly human dvlpm",
+            "countPass": 2
+        },
+        {
+            "courses_title": "explor our food",
+            "countPass": 3
+        },
+        {
+            "courses_title": "changing envr",
+            "countPass": 6
+        },
+        {
+            "courses_title": "int phy geog:a&w",
+            "countPass": 1
+        },
+        {
+            "courses_title": "chng env: wt&lnd",
+            "countPass": 2
+        },
+        {
+            "courses_title": "begin germ i",
+            "countPass": 4
+        },
+        {
+            "courses_title": "intr lang&ling",
+            "countPass": 3
+        },
+        {
+            "courses_title": "lang of world",
+            "countPass": 2
+        },
+        {
+            "courses_title": "df calc ap ph sc",
+            "countPass": 10
+        },
+        {
+            "courses_title": "int calc ap ph s",
+            "countPass": 9
+        },
+        {
+            "courses_title": "df calc app lf s",
+            "countPass": 8
+        },
+        {
+            "courses_title": "int calc ap lf s",
+            "countPass": 9
+        },
+        {
+            "courses_title": "dff calc ap c&ss",
+            "countPass": 10
+        },
+        {
+            "courses_title": "int calc ap c&ss",
+            "countPass": 9
+        },
+        {
+            "courses_title": "linear systems",
+            "countPass": 9
+        },
+        {
+            "courses_title": "calc socsci comm",
+            "countPass": 4
+        },
+        {
+            "courses_title": "calculus 3",
+            "countPass": 10
+        },
+        {
+            "courses_title": "matrix algebra",
+            "countPass": 6
+        },
+        {
+            "courses_title": "multivrbl calc",
+            "countPass": 6
+        },
+        {
+            "courses_title": "med micb & immun",
+            "countPass": 9
+        },
+        {
+            "courses_title": "log & crit think",
+            "countPass": 5
+        },
+        {
+            "courses_title": "critical thinkng",
+            "countPass": 1
+        },
+        {
+            "courses_title": "intro physics",
+            "countPass": 8
+        },
+        {
+            "courses_title": "energy & waves",
+            "countPass": 8
+        },
+        {
+            "courses_title": "elec light & rad",
+            "countPass": 3
+        },
+        {
+            "courses_title": "intr phys eng i",
+            "countPass": 3
+        },
+        {
+            "courses_title": "intr phys eng ii",
+            "countPass": 2
+        },
+        {
+            "courses_title": "intro phys lab",
+            "countPass": 2
+        },
+        {
+            "courses_title": "mechanics i",
+            "countPass": 8
+        },
+        {
+            "courses_title": "intro to politic",
+            "countPass": 5
+        },
+        {
+            "courses_title": "government can",
+            "countPass": 7
+        },
+        {
+            "courses_title": "intro global pol",
+            "countPass": 7
+        },
+        {
+            "courses_title": "bio cog psych",
+            "countPass": 9
+        },
+        {
+            "courses_title": "dev soc cli psy",
+            "countPass": 9
+        },
+        {
+            "courses_title": "soc, dev, clin",
+            "countPass": 4
+        },
+        {
+            "courses_title": "think clr psych",
+            "countPass": 2
+        },
+        {
+            "courses_title": "rsrch mthds",
+            "countPass": 6
+        },
+        {
+            "courses_title": "analys beh data",
+            "countPass": 5
+        },
+        {
+            "courses_title": "infancy",
+            "countPass": 3
+        },
+        {
+            "courses_title": "cultural psych",
+            "countPass": 8
+        },
+        {
+            "courses_title": "health psycholgy",
+            "countPass": 8
+        },
+        {
+            "courses_title": "childhood & adol",
+            "countPass": 8
+        },
+        {
+            "courses_title": "beginner span i",
+            "countPass": 4
+        },
+        {
+            "courses_title": "elem stat applic",
+            "countPass": 8
+        },
+        {
+            "courses_title": "rsrch&writ human",
+            "countPass": 2
+        }
+    ]
+}
